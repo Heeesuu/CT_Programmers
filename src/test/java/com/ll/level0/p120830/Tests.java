@@ -16,7 +16,7 @@ public class Tests {
 
 
     @Test
-    @DisplayName("64분을 시켜서 서비스로 음료수를 6개 받았을 때 가격")
+    @DisplayName("64분을 시켜서 서비스로 음료수를 6개 받았을을 때 가격")
     void t2() {
 
         assertThat(new com.ll.level0.p120830.Solution().solution(64, 6)).isEqualTo(768000);
