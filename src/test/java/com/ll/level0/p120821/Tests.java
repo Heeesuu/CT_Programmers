@@ -1,0 +1,19 @@
+package com.ll.level0.p120821;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+
+
+public class Tests {
+
+    @Test
+    @DisplayName("배열이 [1, 2, 3, 4, 5]일때 결과는 [5, 4, 3, 2, 1]")
+    void t1() {
+
+        assertThat(new com.ll.level0.p120821.Solution().solution(new int[]{1, 2, 3, 4, 5})).isEqualTo(new int[]{5, 4, 3, 2, 1});
+
+    }
+}
+
