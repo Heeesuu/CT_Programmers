@@ -1,12 +1,11 @@
 package com.ll.level0.p120847;
 import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
     }
 }
-
-
 
 class Solution {
     public int solution(int[] numbers) {
