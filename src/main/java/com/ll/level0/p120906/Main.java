@@ -10,10 +10,12 @@ public class Main {
 class Solution {
     public int solution(int n) {
         int answer = 0;
-         return (n + "") //123 => "123" 문자열로 만듬
+         answer = (n + "") //123 => "123" 문자열로 만듬
                  .chars() //"123" => intStream[49,50, 51] 문자열을 숫자 배열로 변환
                 .map(e -> Character.getNumericValue(e)) //intStream[49,50, 51] => intStream[1,2,3] 넘버릭벨류로 다시 숫자로 변환
                 .sum(); //intStream[1,2,3] => 6 각각의 값들을 더해줌
+
+        return answer;
 
     }
 }
